@@ -1,0 +1,84 @@
+
+body {
+    background-color: #eaeded;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+
+.navbar-amazon-main {
+    background-color: #131921 !important;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-amazon-sub {
+    background-color: #232f3e !important;
+    font-size: 14px;
+    padding: 0.25rem 1rem;
+}
+
+
+.nav-sub-link {
+    color: #ffffff !important;
+    text-decoration: none;
+    padding: 5px 8px;
+    border: 1px solid transparent;
+    display: inline-block;
+}
+
+.nav-sub-link:hover {
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+}
+
+
+.btn-busca-custom {
+    background-color: #febd69 !important; 
+    border: none !important;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.btn-busca-custom:hover {
+    background-color: #f3a847 !important; 
+}
+
+.btn-busca-custom:focus {
+    box-shadow: 0 0 0 2px #f3a847 !important;
+}
+
+
+.input-group:focus-within {
+    box-shadow: 0 0 0 2px #f3a847;
+    border-radius: 4px;
+}
+
+
+.amz-nav-box {
+    border: 1px solid transparent;
+    padding: 4px 6px;
+    cursor: pointer;
+}
+
+.amz-nav-box:hover {
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+}
+
+
+.banner-fundo {
+    background: linear-gradient(to bottom, #232f3e 0%, #3a4d61 40%, #eaeded 100%);
+    min-height: 320px;
+    color: white;
+    padding-top: 40px;
+}
+
+
+    background-color: #f3f3f3;
+    border: 1px dashed #cccccc;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777777;
+    font-size: 14px;
+}
