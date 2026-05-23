@@ -1,10 +1,8 @@
-
 body {
     background-color: #eaeded;
     font-family: 'Segoe UI', Arial, sans-serif;
     overflow-x: hidden;
 }
-
 
 .navbar-amazon-main {
     background-color: #131921 !important;
@@ -16,7 +14,6 @@ body {
     font-size: 14px;
     padding: 0.25rem 1rem;
 }
-
 
 .nav-sub-link {
     color: #ffffff !important;
@@ -30,7 +27,6 @@ body {
     border: 1px solid #ffffff;
     border-radius: 2px;
 }
-
 
 .btn-busca-custom {
     background-color: #febd69 !important; 
@@ -46,12 +42,10 @@ body {
     box-shadow: 0 0 0 2px #f3a847 !important;
 }
 
-
 .input-group:focus-within {
     box-shadow: 0 0 0 2px #f3a847;
     border-radius: 4px;
 }
-
 
 .amz-nav-box {
     border: 1px solid transparent;
@@ -64,21 +58,9 @@ body {
     border-radius: 2px;
 }
 
-
 .banner-fundo {
-    background: linear-gradient(to bottom, #232f3e 0%, #3a4d61 40%, #eaeded 100%);
-    min-height: 320px;
+    background: linear-gradient(to bottom, #131921 0%, #232f3e 50%, #eaeded 100%);
+    min-height: 300px;
     color: white;
-    padding-top: 40px;
-}
-
-
-    background-color: #f3f3f3;
-    border: 1px dashed #cccccc;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #777777;
-    font-size: 14px;
+    padding-top: 20px;
 }
